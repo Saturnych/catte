@@ -1,0 +1,22 @@
+version: '3.3'
+
+services:
+  kit:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: kit
+    restart: always
+    env_file: .env
+    environment:
+      NODE_ENV: development
+    ports:
+      - 3000:3000
+    networks:
+      - internal
+
+networks:
+  internal:
+
+volumes:
+  data:

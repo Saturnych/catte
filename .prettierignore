@@ -1,0 +1,14 @@
+.DS_Store
+/node_modules
+/.svelte-kit
+/data
+/temp
+.npmrc
+.env
+.env.vercel
+.vercel
+.output
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
