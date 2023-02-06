@@ -24,7 +24,7 @@
 	"keywords": [
 		"sveltekit",
 		"typescript",
-		"felt"
+		"feltui"
 	],
   "repository": {
 		"type": "git",
